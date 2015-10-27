@@ -24,7 +24,7 @@ public class AreaDeDesenho extends JPanel {
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		// desenha algumas figuras
-		g.setColor(Color.MAGENTA);
+		g.setColor(Color.GREEN);
 		for (Figura f : figuras) {
 			f.desenha(g);
 		}
