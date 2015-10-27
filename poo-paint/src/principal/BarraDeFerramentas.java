@@ -14,8 +14,8 @@ public class BarraDeFerramentas extends JToolBar {
 		this.grupo = new ButtonGroup();
 		
 		Ferramenta[] ferramentas = new Ferramenta[]{
-			new FerramentaRetangulo(this),
 			new FerramentaElipse(this),
+			new FerramentaRetangulo(this),
 			new FerramentaLinha(this)
 		};
 		for (Ferramenta f : ferramentas) {
